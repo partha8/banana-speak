@@ -20,6 +20,9 @@ body {
   padding: 1rem;
   text-align: center;
 }
+.nav h1{
+    font-size: 2rem;
+}
 
 section {
   text-align: center;
@@ -59,4 +62,22 @@ textarea {
     text-align: left;
     padding: 0.5rem;
     font-size:1.4rem;
+}
+.list-unordered {
+  list-style: none;
+}
+.list-inline {
+  display: inline;
+}
+footer {
+  background-color: yellow;
+  color: black;
+  padding: 2rem;
+  text-align: center;
+  border-top-right-radius: 1rem;
+}
+footer a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  padding: 1rem;
 }
